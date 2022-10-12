@@ -78,15 +78,6 @@ li {
   text-shadow: 0px 0px 14px white;
 }
 
-.me-2 {
-  margin-right: 0.5rem !important;
-  height: 24px;
-  border-radius: 11px;
-  padding: 13px;
-  background: #ffffff1f;
-  font-family: "Caveat", cursive;
-}
-
 .container {
   display: flex;
   flex-direction: column;
@@ -270,3 +261,41 @@ footer {
 }
 
 /* footer code ends  */
+
+/* css for serach button starts*/
+nav form {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: white;
+  transition: all 1s;
+  padding: 5px 16px;
+  border-radius: 23px;
+  cursor: pointer;
+}
+
+nav form input {
+  outline: 0;
+  border: 0;
+  display: none;
+}
+
+.serach_icon {
+  padding: 8px 0px;
+}
+
+nav form:hover {
+  cursor: pointer;
+  background-color: white;
+
+}
+
+nav form:hover input {
+  display: block;
+}
+
+nav form:hover .serach_icon {
+  display: none;
+}
+
+/* css for serach button ends*/
