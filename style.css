@@ -1,17 +1,14 @@
 body {
   background-color: black !important;
 }
-
-.navbar>.container-fluid {
+.navbar > .container-fluid {
   padding: 0px 34px 0px 34px;
 }
-
 .navbar-brand {
   font-family: "Pacifico", cursive;
   font-size: 1.35rem;
   transition: text-shadow 0.25s ease-in-out;
 }
-
 .navbar-brand:hover {
   text-shadow: 0px 0px 10px cyan;
 }
@@ -21,15 +18,12 @@ body {
   0% {
     transform: rotate(0deg);
   }
-
   25% {
     transform: rotate(15deg);
   }
-
   75% {
     transform: rotate(-15deg);
   }
-
   100% {
     transform: rotate(0deg);
   }
@@ -49,35 +43,29 @@ body {
   height: 5rem;
   margin-bottom: 2rem;
 }
-
 img {
   filter: invert(100%);
   width: 2.6rem;
   margin: 7px;
 }
-
 ul {
   font-family: "Caveat", cursive;
   font-size: 1.6rem;
 }
-
 li {
   left: 324px;
   position: relative;
   flex-direction: row;
   display: flex;
 }
-
 .navbar-expand-lg .navbar-nav .nav-link {
   padding: 1rem !important;
   margin: 0.6rem !important;
   transition: all 0.25s ease-in-out;
 }
-
 .navbar-expand-lg .navbar-nav .nav-link:hover {
   text-shadow: 0px 0px 14px white;
 }
-
 .me-2 {
   margin-right: 0.5rem !important;
   height: 24px;
@@ -103,13 +91,11 @@ h1 {
   font-family: "Caveat", cursive;
   font-size: 4rem;
 }
-
 h5 {
   font-size: 1.85rem;
   color: aqua;
   text-shadow: 0px 0px 11px rgba(0, 255, 255, 0.5);
 }
-
 .card {
   width: 64rem;
   font-family: "Caveat", cursive;
@@ -132,20 +118,18 @@ button {
   background: transparent !important;
   /* box-shadow: 0px 1px 2px rgb(0 255 255 / 50%), 0px 2px 4px rgb(0 255 255 / 50%),
     0px 4px 8px rgb(0 255 255 / 50%), 0px 0px 7px rgb(0 256 255 / 50%); */
-  /* transition: box-shadow 0.3s ease-in-out !important; */
-  border: none !important;
-  font-size: 1.2rem
+    /* transition: box-shadow 0.3s ease-in-out !important; */
+    border: none !important;
+    font-size: 1.2rem
 }
-
-button:hover {
-  background-color: #333;
-  box-shadow: inset 0px 2px 4px rgba(0, 255, 255, 0.3),
-    inset 0px 3px 6px rgba(0, 255, 255, 0.3),
-    inset 0px 6px 12px rgba(0, 255, 255, 0.3);
-  transition: 0.2s;
-  transform: translateY(2px);
-}
-
+button:hover{
+    background-color: #333;
+    box-shadow: inset 0px 2px 4px rgba(0,255,255,0.3), 
+                inset 0px 3px 6px rgba(0,255,255,0.3), 
+                inset 0px 6px 12px rgba(0,255,255,0.3);
+    transition: 0.2s;
+    transform: translateY(2px);
+  }
 .row {
   color: aqua;
   font-family: "Caveat", cursive;
@@ -156,117 +140,8 @@ button:hover {
 }
 
 
-@media(max-width:1150px) {
-  .card {
-    width: 100%;
-  }
+@media(max-width:1150px){
+    .card{
+        width: 100%;
+    }
 }
-
-
-/* footer code begin */
-
-footer {
-  margin: 100px 0px 30px 0;
-}
-
-.footer {
-  display: flex;
-  margin: 0 10% 0 20%;
-  justify-content: space-between;
-}
-
-.brand {
-  display: flex;
-}
-
-.social_links {
-  display: flex;
-  gap: 15px;
-  align-items: center;
-}
-
-.social_links span {
-  color: white;
-}
-
-.social_links .instagram i {
-  color: #CD5C5C;
-  font-size: 25px;
-}
-
-.social_links .youtube i {
-  color: red;
-  font-size: 25px;
-}
-
-.social_links .linkedin i {
-  color: #0072b1;
-  font-size: 25px;
-}
-
-.social_links .facebook i {
-  color: #3b5998;
-  font-size: 25px;
-}
-
-.social_links a {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.footer h1 {
-  text-align: center;
-  font-size: 40px;
-  max-width: 600px;
-  position: relative;
-}
-
-.footer h1:before {
-  content: "";
-  display: block;
-  width: 150px;
-  height: 5px;
-  background: #CD5C5C;
-  left: 180px;
-  top: 50%;
-  position: absolute;
-}
-
-.footer h1:after {
-  content: "";
-  display: block;
-  width: 150px;
-  height: 5px;
-  background: #CD5C5C;
-  right: 223px;
-  top: 50%;
-  position: absolute;
-}
-
-.endLine p {
-  text-align: center;
-  color: white;
-}
-
-.endLine {
-  margin-top: 20px;
-}
-
-.endLine span i {
-  color: red;
-}
-
-@media(max-width:1170px) {
-  .footer {
-    flex-direction: column;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-  }
-}
-
-/* footer code ends  */
